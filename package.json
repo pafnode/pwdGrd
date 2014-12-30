@@ -1,0 +1,40 @@
+{
+  "family": "pafweblib",
+  "name": "pwdGrd",
+  "version": "1.0.1",
+  "description": "Common password security control for pinganfuweb",
+  "homepage": "http://192.168.0.220/pafweblib/pwdGrd",
+  "author": "trsun",
+  "maintainers": [
+    "trsun"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://192.168.0.220/pafweblib/pwdGrd.git"
+  },
+  "bugs": {
+    "url": ""
+  },
+  "keywords": [],
+  "licenses": "MIT",
+  "spm": {
+    "output": [
+      "pc-password.js",
+      "pc-b-password.js",
+      "password-rule.js",
+      "black-rule.js",
+      "encryptor.js",
+      "pwdGrd.js",
+      "pc-b-pwdGrd.js",
+      "pwdGrd.css",
+      "c-pwdGrd.css",
+      "exe/*.*",
+      "img/*.*"
+    ],
+    "alias": {
+      
+    },
+    "devAlias": {},
+    "engines": {}
+  }
+}

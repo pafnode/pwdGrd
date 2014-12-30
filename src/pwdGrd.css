@@ -1,0 +1,218 @@
+/*! define pafweblib/pwdGrd/1.0.1/pwdGrd-debug.css */
+/* pafweblib.pwdGrd style module
+ * @author trsun
+ */
+.pafweblib-pwdGrd {
+	border: 1px solid #bbbbbb;
+	font-size: 12px;
+	line-height: 30px;
+	height: 30px;
+}
+
+.pafweblib-pwdGrd-install {
+
+	background: #CECECE;
+	color: #FFF;
+
+}
+
+.pafweblib-pwdGrd-no-border {
+  border:none;
+}
+
+.pafweblib-pwdGrd-merchant {
+	font-size: 12px;
+	margin-left: 0px;
+}
+
+.pafweblib-pwdGrd-customized {
+	margin-left:0px;
+}
+
+.pafweblib-pwdGrd-merchant-customized {
+  margin-left:0px;
+}
+
+.pafweblib-pwdGrd-merchant-customized a{
+  color: #FFF;
+}
+
+.pafweblib-pwdGrd-inline{
+	display:inline-block;
+}
+
+.pafweblib-pwdGrd-second-line{
+  clear:both;
+  float:left;
+}
+
+.pafweblib-pwdGrd-middle{
+	vertical-align: middle;
+}
+
+.pafweblib-pwdGrd-margin{
+  margin: 0!important;
+}
+
+.pafweblib-pwdGrd-tips {
+	background: #a8a8a8;
+	height: 28px;
+	top: -25px;
+	position: absolute;
+	width: 180px;
+	cursor: default;
+}
+
+.pafweblib-pwdGrd-tips-text {
+	background: none repeat scroll 0 0 #ffff8d;
+	border: 1px solid #dea90c;
+	display: block;
+	line-height: 20px;
+	left: -2px;
+	padding: 3px 5px;
+	position: relative;
+	top: -2px;
+	width: 168px;
+	color: #787878!important;
+	font-size: 12px;
+	text-align: center;
+	z-index: 9998;
+}
+
+.pafweblib-pwdGrd-tips-angle {
+	background: url(/static/pinganfuweb-modules/pafweblib/pwdGrd/1.0.1/img/tips-angle.png) no-repeat scroll transparent;
+	display: block;
+	height: 11px;
+	left: 20px;
+	overflow: hidden;
+	line-height: 11px;
+	position: absolute;
+	top: 25px;
+	width: 10px;
+	z-index: 9999;
+}
+
+.pwdGrd-Dlg {
+	border: 6px solid #767576;
+	z-index: 1000;
+}
+
+.pwdGrd-Dlg-foot {
+	height: 35px;
+	border-top: 1px dotted #ccc;
+	font: 12px/1.5em Tahoma,Helvetica,Arial,Simsun,sans-serif;
+	color: #4d4d4d;
+}
+
+.ui-widget-overlay{
+	opacity: .2;
+	filter: alpha(opacity=20);
+	-ms-filter: 'alpha(opacity=20)';
+	background: #000;
+}
+
+.pwdGrd-Dlg div.ui-widget-header{
+	border: 0px;
+	border-bottom: 1px solid #dbdbdb;
+	background-color: transparent!important;
+	background-image: none!important;
+}
+
+.pwdGrd-Dlg .ui-widget-header span{
+	color: #000;
+	font: 18px/22px SimHei;
+}
+
+.pwdGrd-Dlg .ui-widget-content{
+	background: #FFF;
+	font: 12px/1.5em Tahoma,Helvetica,Arial,Simsun,sans-serif;
+	color: #8c8c8c;
+}
+
+.pwdGrd-Dlg .ui-widget-content div{
+  font: 12px/1.5em Tahoma,Helvetica,Arial,Simsun,sans-serif;
+  color: #8c8c8c;
+}
+
+.pwdGrd-Dlg .ui-widget button{
+	font-family: "Microsoft YaHei";
+	font-size: 14px;
+}
+
+.pwdGrd-Dlg-memo{
+	color: #ff7b0e;
+	font-size: 14px;
+	font-family: 'Microsoft YaHei','微软雅黑';
+	font-weight: bold;
+}
+
+a.pwdGrd-Dlg-btn,a.pwdGrd-Dlg-btn:visited{
+	color:#FFF;
+	font-weight:bold;
+	margin:0 auto;
+	display: inline-block;
+	padding: 7px 12px;
+	margin-bottom: 0;
+	font-size: 14px;
+	line-height: 1.428571429;
+	font-family: "Microsoft YaHei";
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	cursor: pointer;
+	min-width: 105px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+	text-decoration:none;
+	background-color: #ff9138;
+	border-color: #ff9138;
+}
+a.pwdGrd-Dlg-btn:hover,a.pwdGrd-Dlg-btn:focus{
+	background-color: #ffa358;
+  	border-color: #ffa358;
+}
+a.pwdGrd-Dlg-btn:active{
+  background-color: #ff8138;
+  border-color: #ff8138;
+}
+.pwdGrd-Dlg-close{
+	float: right
+}
+
+.pwdGrd-Dlg-close em{
+	color:#000;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: normal;
+	cursor: pointer;
+	display: inline-block;
+	color: #666666;
+	padding-left: 5px;
+}
+
+.pwdGrd-Dlg-close s{
+	-moz-transition: all .2s ease-in-out 0s;
+	background: url(/static/pinganfuweb-modules/pafweblib/pwdGrd/1.0.1/img/close.png) no-repeat scroll transparent;
+	cursor: pointer;
+	display: inline-block;
+	height: 11px;
+	overflow: hidden;
+	top: 6px;
+	vertical-align: middle;
+	width: 11px;
+}
+.pwdGrd-far-away{
+	position:absolute;
+	left:-4000px;
+}
+/*---------------merchantCss---------------*/
+.merchant-commonForm-pwdGrd{
+	border:solid 1px #BBBBBB;
+	display:inherit;
+}
+.form-group .commonError span{
+	color:#ff0000;background: url(/merchant/img/form.png)  -380px -20px no-repeat;padding-left:20px;font-size: 12px;line-height: 20px;height: 20px;display: inline-block;margin-left: 10px;
+}
